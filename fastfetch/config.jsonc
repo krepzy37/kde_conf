@@ -10,7 +10,7 @@
     "logo": {
         "source": "~/.config/fastfetch/logo.txt",
         "type": "file",
-        "color": {"1": "blue"},
+        "color": {"1": "magenta"},
         "padding": {
             "top": 3
         }
@@ -25,103 +25,103 @@
          {
             "type": "os",
             "key": "OS   ",
-            "keyColor": "blue",  // = color1
+            "keyColor": "magenta",  // = color1
         },
         {
             "type": "kernel",
             "key": " ├  ",
-            "keyColor": "blue",
+            "keyColor": "magenta",
         },
         {
             "type": "packages",
             "format": "{} (pacman)",
             "key": " ├ 󰏖 ",
-            "keyColor": "blue",  
+            "keyColor": "magenta",
         },
         {
             "type": "uptime",
             "key": " ├  ",
-            "keyColor": "blue",
+            "keyColor": "magenta",
         },
         {
             "type": "shell",
             "key": " └  ",
-            "keyColor": "blue", 
+            "keyColor": "magenta",
         },
         "break",
         {
             "type": "wm",
             "key": "WM   ",
-            "keyColor": "32", 
+            "keyColor": "blue",
         },
         {
             "type": "de",
             "key": " ├  ",
-            "keyColor": "32",
+            "keyColor": "blue",
         },
         {
             "type": "wmtheme",
             "key": " ├ 󰉼 ",
-            "keyColor": "32",
+            "keyColor": "blue",
         },
         {
             "type": "icons",
             "key": " ├ 󰀻 ",
-            "keyColor": "32",
+            "keyColor": "blue",
         },
         {
             "type": "cursor",
             "key": " ├  ",
-            "keyColor": "32", 
+            "keyColor": "blue",
         },
         {
             "type": "terminal",
             "key": " ├  ",
-            "keyColor": "32",
+            "keyColor": "blue",
         },
         {
             "type": "terminalfont",
             "key": " └  ",
-            "keyColor": "32", 
+            "keyColor": "blue",
         },
         "break",
         {
             "type": "host",
             "format": "{2}",
             "key": "PC   ",
-            "keyColor": "33",
+            "keyColor": "cyan",
         },
         {
             "type": "cpu",
-            "format": "{1} ({3}) @ {7} GHz",
+            "format": "{1} ({3}) @ {7} ",
             "key": " ├  ",
-            "keyColor": "33",
+            "keyColor": "cyan",
         },
         {
             "type": "gpu",
-            "format": "{1} {2}",
+            "format": "{2}",
             "key": " ├ 󰢮 ",
-            "keyColor": "33",
+            "keyColor": "cyan",
         },
         {
             "type": "memory",
             "key": " ├  ",
-            "keyColor": "33",
+            "keyColor": "cyan",
         },
         {
             "type": "swap",
             "key": " ├ 󰓡 ",
-            "keyColor": "33",
-        },
-        {
-            "type": "disk",
-            "key": " ├ 󰋊 ",
-            "keyColor": "33",
+            "keyColor": "cyan",
         },
         {
             "type": "monitor",
-            "key": " └  ",
-            "keyColor": "33",
+            "key": " ├  ",
+            "keyColor": "cyan",
+        },
+        {
+            "type": "disk",
+            "key": " └ 󰋊 ",
+            "keyColor": "cyan",
         },
         "break",
         "break",
